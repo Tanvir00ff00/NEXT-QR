@@ -14,7 +14,7 @@ export default function Home() {
       <header className="relative z-20 flex-none h-16 px-4 md:px-8 flex items-center justify-between border-b border-white/50 bg-white/30 backdrop-blur-md sticky top-0">
         <div className="flex items-center gap-3">
           <div className="h-8 w-8 rounded-lg bg-white shadow-sm flex items-center justify-center p-1">
-            <img src="/logo.svg" alt="NextQR" className="w-full h-full object-contain" />
+            <img src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/logo.svg`} alt="NextQR" className="w-full h-full object-contain" />
           </div>
           <h1 className="text-xl font-bold tracking-tight text-slate-800">
             Next<span className="text-transparent bg-clip-text bg-gradient-to-r from-sky-600 to-emerald-600">QR</span>
