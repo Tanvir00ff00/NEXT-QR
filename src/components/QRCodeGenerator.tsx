@@ -26,7 +26,6 @@ function cn(...inputs: (string | undefined | null | false)[]) {
 type Extension = 'png' | 'jpeg' | 'webp' | 'svg';
 type QRMode = 'url' | 'text' | 'wifi' | 'email' | 'phone' | 'sms' | 'whatsapp' | 'vcard';
 type GradientType = 'linear' | 'radial';
-type ErrorCorrectionLevel = 'L' | 'M' | 'Q' | 'H';
 
 // Extended Settings
 type QRCodeSettings = {
